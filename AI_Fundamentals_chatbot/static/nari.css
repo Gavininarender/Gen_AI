@@ -1,0 +1,177 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: rgb(26, 188, 156);
+    background: -webkit-linear-gradient(to right, rgb(41, 128, 185), rgb(39, 174, 96));
+    background: linear-gradient(to right, rgb(41, 128, 185), rgb(39, 174, 96));
+}
+
+.chat {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card {
+    height: 500px;
+    border-radius: 20px !important;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.contacts_body {
+    padding:  0.75rem 0 !important;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+.msg_card_body {
+    overflow-y: auto;
+}
+
+.card-header {
+    border-radius: 20px 20px 0 0 !important;
+    border-bottom: 0 !important;
+}
+
+.card-footer {
+    border-radius: 0 0 20px 20px !important;
+    border-top: 0 !important;
+}
+
+.container {
+    align-content: center;
+}
+
+.search {
+    border-radius: 20px 0 0 20px !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border: 0 !important;
+    color: #34495e !important;
+}
+
+.search:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.type_msg {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border: 0 !important;
+    color: #34495e !important;
+    height: 60px !important;
+    overflow-y: auto;
+    text-align: center; /* Center the text */
+}
+
+.type_msg:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.attach_btn,
+.send_btn,
+.search_btn {
+    border-radius: 20px !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border: 0 !important;
+    color: #34495e !important;
+    cursor: pointer;
+}
+
+.contacts {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts li {
+    width: 100% !important;
+    padding: 8px 15px;
+    margin-bottom: 15px !important;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.user_img {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #3498db;
+    border-radius: 90%; /* Increase this value to adjust the radius */
+}
+
+.user_img_msg {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #3498db;
+}
+
+.img_cont 
+.img_cont_msg {
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+
+.online_icon {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    bottom: 0.2em;
+    right: 0.4em;
+    border: 2px solid white;
+}
+
+.msg_time{
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+	color: rgba(0, 0, 0, 1.0);
+	font-size: 13px;
+}
+.msg_time_send{
+	position: absolute;
+	right:0;
+	bottom: -15px;
+	color: rgba(0, 0, 0, 1.5);
+	font-size: 13px;
+}
+
+.offline {
+    background-color: #e74c3c !important;
+}
+
+.user_info {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.user_info span {
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.user_info p {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.msg_cotainer,
+.msg_cotainer_send {
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 25px;
+    background-color: #3498db;
+    padding: 10px;
+    position: relative;
+    text-align: center; /* Center the text */
+}
+
+.msg_cotainer_send {
+    background-color: #2ecc71;
+}
